@@ -1,0 +1,40 @@
+header{
+    background: hsla(0, 0%, 100%, 0);
+}
+
+#logosite{
+    width: 10%;
+}
+
+.caixa{
+    position: relative;
+    width: 80%;
+    height: 100px;
+    margin: 0 auto;
+}
+
+nav{
+    position: absolute;
+    top: 30%;
+    right: 0;
+}
+
+nav li{
+    display: inline;
+    margin: 0 0 0 30px;
+}
+
+nav a{
+    font-family:sans-serif;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+}
+
+nav a:hover{
+    transition: 200ms;
+    color: #FFBE5C;
+    text-decoration: underline;
+}

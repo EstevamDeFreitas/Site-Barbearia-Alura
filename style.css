@@ -1,0 +1,95 @@
+#banner{
+    width: 100%;
+}
+
+.caixa{
+    position: absolute;
+    top:0px;
+    bottom: 8px;
+    left: 10%;
+}
+
+#textosobre{
+    text-align: left;
+    margin-left: 10px;
+    font-size: 40px;
+    font-family:sans-serif;
+    font-weight: bold;
+}
+
+.principal{
+    position: relative;
+    background: #ffffff;
+    top:-200px;
+    padding: 30px;
+    margin-inline: 90px;
+}
+
+.titulo-centralizado{
+    font-size: 35px;
+    color: #565656;
+    font-weight: bold;
+    font-family:sans-serif;
+}
+
+
+p{
+    font-family:sans-serif;
+    font-size: 20px;
+    text-align: justify;
+    margin-left: 50px;
+    margin-right: 40px;
+}
+
+#textoMissao{
+    font-size: 20px;
+    color: #565656;
+    background-color: #FFBE5C;
+    padding: 15px;
+    border-left: 17px solid #565656;
+}
+
+.itens{
+    font-family:sans-serif;
+}
+
+
+/* Os itens ocuparão apenas o tamanho do seu conteudo */
+.listaItens{
+    vertical-align: top;
+    width: 100%;
+    margin-right: 15%;
+    margin-left: 5%;
+}
+
+.imagemBeneficios{
+    width: 60%;
+    margin: 0;
+}
+
+#textoBeneficios{
+    position: absolute;
+    color: #565656;
+    display: inline-block;
+    font-size: 20px;
+    background-color: #FFBE5C;
+    padding: 10px;
+    padding-left: 40px;
+    padding-right: 100px;
+    border-left: 17px solid #565656;
+    left: 50%;
+    margin-top: 50px;
+}
+
+footer{
+    text-align: center;
+    background: url("assets/bg.jpg");
+    padding: 40px 0px;
+}
+
+.copyright{
+    text-align: center;
+    color: #FFFFFF;
+    font-size: 13px;
+    margin-top: 20px;
+}
