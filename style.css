@@ -1,0 +1,108 @@
+:root{
+    --cor-primaria: #FFC626;
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+/* Header do site */
+header{
+    background: black;
+    width: 100%;
+}
+
+.caixa-header{
+    position:relative;
+    width: 90%;
+    height: 6em;
+    margin: 0 2em;
+}
+
+#logosite{
+    height: 6em;
+}
+
+nav{
+    position: absolute;
+    top: 3em;
+    right: 0;
+}
+
+nav li {
+	display: inline;
+	margin: 0 0 0 15px;
+}
+
+nav a {
+	text-transform: uppercase;
+	color: white;
+	font-weight: bold;
+	font-size: 22px;
+	text-decoration: none;
+}
+
+nav a:hover {
+	color: var(--cor-primaria);
+}
+
+section h2{
+    margin: 4em 0 2em;
+    padding-left: 40px;
+    font-size: 4em;
+}
+
+.cards-geral{
+    text-align: center;
+}
+
+.cards{
+    width: 20rem;
+    text-align: justify;
+    display: inline-block;
+    vertical-align: top;
+    margin: .5em;
+    min-height: 30em;
+    box-shadow: 7px 7px 6px #0000004b;
+    border-radius: 25px;
+}
+
+.cards div{
+    padding: 1em;
+}
+
+.cards img{
+    width: 20rem;
+    height: 12rem;
+    object-fit: cover;
+    border-radius: 18px 18px 0 0;
+}
+
+.cards h3{
+    font-size: 1.5em;
+    line-height: 1.5em;
+    font-weight: bold;
+}
+
+.cards iframe{
+    border-radius: 18px 18px 0 0;
+}
+
+.video-demo iframe{
+    width: 35em;
+    height: 20em;
+    margin-left: 40px;
+}
+
+footer {
+	text-align: center;
+	background: url("assets/bg.jpg");
+	padding: 40px 0;
+}
+
+.copyright {
+	color: #FFFFFF;
+	font-size: 13px;
+	margin: 20px 0 0;
+}

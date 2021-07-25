@@ -1,0 +1,56 @@
+:root{
+    --cor-primaria: #FFC626;
+}
+
+#atual{
+    color: var(--cor-primaria);
+}
+
+.principal{
+    height: 100vh;
+    background: linear-gradient(#000000cc, #000000cc), url(assets/banner.jpg) no-repeat top center;
+    background-size: cover;
+    padding-left: 40px;
+    line-height: 5em;
+    text-align: left;
+}
+
+.principal h1{
+    color: white;
+    font-size: 4em;
+    font-weight: bold;
+}
+
+.principal p{
+    color: white;
+}
+
+.principal div{
+    transform: translateY(50%);
+}
+
+#botao-produto{
+    background: var(--cor-primaria);
+    color: black;
+    padding: 1em 2em;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.3em;
+    border-radius: 5px;
+    margin-right: 1.6em;
+}
+
+#botao-produto::after{
+    content: "  \1F87A";
+}
+
+#botao-saiba{
+    background: black;
+    color: white;
+    padding: 1em 2em;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.3em;
+    border-radius: 5px;
+    border:1px solid white;
+}
