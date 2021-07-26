@@ -13,6 +13,10 @@ header{
     width: 100%;
 }
 
+#atual{
+    color: var(--cor-primaria);
+}
+
 .caixa-header{
     position:relative;
     width: 90%;
@@ -63,20 +67,13 @@ section h2{
     display: inline-block;
     vertical-align: top;
     margin: .5em;
-    min-height: 30em;
+    min-height: 33em;
     box-shadow: 7px 7px 6px #0000004b;
     border-radius: 25px;
 }
 
 .cards div{
-    padding: 1em;
-}
-
-.cards img{
-    width: 20rem;
-    height: 12rem;
-    object-fit: cover;
-    border-radius: 18px 18px 0 0;
+    padding: 2em;
 }
 
 .cards h3{
@@ -89,20 +86,37 @@ section h2{
     border-radius: 18px 18px 0 0;
 }
 
-.video-demo iframe{
-    width: 35em;
-    height: 20em;
-    margin-left: 40px;
-}
-
 footer {
 	text-align: center;
 	background: url("assets/bg.jpg");
 	padding: 40px 0;
+    margin-top: 6em;
 }
 
 .copyright {
 	color: #FFFFFF;
 	font-size: 13px;
 	margin: 20px 0 0;
+}
+
+@media screen and (max-width: 480px) {
+    section h2{
+        font-size: 1.7em;
+    }
+
+    .video-demo iframe{
+        width: 80%;
+        height: 100%;
+        margin-left: 40px;
+    }
+
+    nav{
+        position: absolute;
+        top: 2em;
+        text-align: right;
+    }
+
+    .principal h1{
+        font-size: 1em;
+    }
 }

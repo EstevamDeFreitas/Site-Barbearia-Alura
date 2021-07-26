@@ -2,10 +2,6 @@
     --cor-primaria: #FFC626;
 }
 
-#atual{
-    color: var(--cor-primaria);
-}
-
 .principal{
     height: 100vh;
     background: linear-gradient(#000000cc, #000000cc), url(assets/banner.jpg) no-repeat top center;
@@ -53,4 +49,38 @@
     font-size: 1.3em;
     border-radius: 5px;
     border:1px solid white;
+}
+
+.cards img{
+    width: 20rem;
+    height: 12rem;
+    object-fit: cover;
+    border-radius: 18px 18px 0 0;
+}
+
+.video-demo iframe{
+    width: 80%;
+    height: 30em;
+    margin-left: 40px;
+}
+
+@media screen and (max-width: 480px) {
+    nav{
+        position: inherit;
+        right: 0;
+        top: 0px;
+        text-align: center;
+    }
+    
+    .principal{
+        line-height: 2em;
+    }
+
+    .principal h1{
+        font-size: 2em;
+    }
+
+    .principal a{
+        line-height: 4em;
+    }
 }
